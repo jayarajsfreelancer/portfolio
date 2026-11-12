@@ -4,30 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jayaraj S — Frontend Developer creating clean, responsive websites with modern web tools.">
-  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Jayaraj S. - Frontend Developer and Creative Designer. I build responsive websites, portfolio sites, landing pages and digital designs.">
+  <meta name="theme-color" content="#080910">
+  <title>Jayaraj S. | Frontend Developer & Creative Designer</title>
 
-  <title>Jayaraj S | Frontend Developer</title>
-
-  <link rel="icon" href="logo.png">
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
 
+  <!-- Navigation -->
   <div class="nav-wrap">
-    <nav class="wrap" aria-label="Main navigation">
-
+    <nav class="wrap navbar" aria-label="Main navigation">
       <a class="brand" href="#home">JAYARAJ<span>.</span></a>
 
       <button class="menu-btn" id="menuBtn"
-        aria-expanded="false"
-        aria-controls="navLinks">
+        aria-expanded="false" aria-controls="navLinks">
         Menu
       </button>
 
       <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#services">Services</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -35,18 +35,17 @@
 
       <a class="btn btn-ghost nav-cta"
         href="mailto:jayaraj.s.freelancer@gmail.com">
-        Let's talk ↗
+        Let's Talk ↗
       </a>
-
     </nav>
   </div>
 
   <main>
 
-    <!-- HERO SECTION -->
+    <!-- Hero -->
     <header class="wrap hero" id="home">
 
-      <div>
+      <div class="hero-content reveal">
         <div class="eyebrow">
           <span class="dot"></span>
           Available for freelance opportunities
@@ -57,91 +56,143 @@
           <span class="gradient">Jayaraj S.</span>
         </h1>
 
-        <h2 class="hero-subtitle">
-          Frontend Developer & Creative Designer
+        <h2 class="hero-role">
+          Frontend Developer <span>&</span> Creative Designer
         </h2>
 
         <p class="hero-copy">
-          I create polished portfolio websites, creative Canva
-          designs and eye-catching thumbnails. I enjoy turning
-          ideas into clear, engaging digital experiences.
+          I create modern, responsive and user-friendly websites
+          using HTML, CSS and JavaScript. I also provide creative
+          design and digital support services to help individuals
+          and businesses build their online presence.
         </p>
 
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projects">
-            Explore my work <span>↗</span>
+            Explore My Work ↗
+          </a>
+
+          <a class="btn btn-ghost" href="#contact">
+            Contact Me
           </a>
 
           <a class="btn btn-ghost"
-            href="mailto:jayaraj.s.freelancer@gmail.com">
-            Contact me
+            href="https://linktr.ee/jayaraj.s.freelancer"
+            target="_blank" rel="noopener noreferrer">
+            My Social Links ↗
           </a>
         </div>
+
+        <div class="trust-row">
+          <span>✦ Creative Thinking</span>
+          <span>✦ Detail Focused</span>
+          <span>✦ Remote Collaboration</span>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="code-window">
+          <div class="window-bar">
+            <i></i><i></i><i></i>
+          </div>
+
+          <pre><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Jayaraj S"</span>,
+  role: <span class="code-green">"Frontend Developer"</span>,
+  skills: [
+    <span class="code-blue">"HTML"</span>,
+    <span class="code-blue">"CSS"</span>,
+    <span class="code-blue">"JavaScript"</span>,
+    <span class="code-blue">"Canva"</span>
+  ],
+  mindset: <span class="code-green">"Always learning"</span>
+};</pre>
+        </div>
+
+        <div class="floating-label">✦ Creative & Digital Solutions</div>
       </div>
 
     </header>
 
-
-    <!-- ABOUT SECTION -->
+    <!-- About -->
     <section id="about">
       <div class="wrap">
 
-        <div class="section-head">
-          <div class="kicker">01 / About</div>
+        <div class="section-head reveal">
+          <div class="kicker">01 / About Me</div>
           <h2>A little about me</h2>
+          <p class="section-intro">
+            Combining technology, creativity and digital skills
+            to deliver useful online solutions.
+          </p>
         </div>
 
         <div class="about-grid">
 
-          <div class="card">
+          <div class="card reveal">
             <div class="mini-title">
-              Building for the web, one detail at a time.
+              Building ideas into digital experiences.
             </div>
 
             <p>
               I'm Jayaraj, a frontend developer and creative
-              designer who enjoys making clean, responsive
-              websites and engaging visual content. I focus on
-              clear layouts, thoughtful details and designs
-              that work well across devices and platforms.
+              freelancer from India. I enjoy building clean,
+              responsive websites and creating attractive digital
+              designs.
             </p>
 
             <p>
-              I can create personal portfolio websites for
+              I can develop personal portfolio websites for
               developers, freelancers, students and professionals,
-              as well as landing pages for small businesses.
-              I'm open to collaborating with anyone who needs
-              a dependable web presence.
+              as well as landing pages for businesses.
             </p>
+
+            <p>
+              I also take on creative design and virtual assistance
+              tasks. My focus is on clear communication, quality
+              work and continuous improvement.
+            </p>
+
+            <div class="support-skills">
+              <span>Frontend Development</span>
+              <span>Creative Design</span>
+              <span>Digital Support</span>
+            </div>
           </div>
 
-          <div class="card">
-            <div class="mini-title">
-              What I can do for you
-            </div>
+          <div class="card reveal">
+            <div class="mini-title">Quick Profile</div>
 
             <div class="facts">
-
               <div class="fact">
-                <strong>Portfolio websites</strong>
-                <span>Personal sites to showcase your work</span>
+                <strong>Name</strong>
+                <span>Jayaraj S.</span>
               </div>
 
               <div class="fact">
-                <strong>Canva designs</strong>
-                <span>Social graphics and promotional designs</span>
+                <strong>Location</strong>
+                <span>India</span>
               </div>
 
               <div class="fact">
-                <strong>YouTube thumbnails</strong>
-                <span>Eye-catching video cover designs</span>
+                <strong>Role</strong>
+                <span>Frontend Developer</span>
               </div>
 
               <div class="fact">
-                <strong>Responsive websites</strong>
-                <span>Mobile-friendly layouts</span>
+                <strong>Work Mode</strong>
+                <span>Remote / Freelance</span>
               </div>
 
+              <div class="fact">
+                <strong>Creative Skills</strong>
+                <span>Canva Design</span>
+              </div>
+
+              <div class="fact">
+                <strong>Availability</strong>
+                <span>Open to Projects</span>
+              </div>
             </div>
           </div>
 
@@ -149,118 +200,176 @@
       </div>
     </section>
 
+    <!-- Skills -->
+    <section id="skills">
+      <div class="wrap">
 
-    <!-- SERVICES SECTION -->
+        <div class="section-head reveal">
+          <div class="kicker">02 / My Skills</div>
+          <h2>Skills I work with</h2>
+          <p class="section-intro">
+            A combination of frontend development, creative design
+            and digital support skills.
+          </p>
+        </div>
+
+        <div class="skills">
+
+          <article class="skill reveal">
+            <div class="skill-icon">5</div>
+            <h3>HTML5</h3>
+            <p>Creating structured and accessible website layouts.</p>
+          </article>
+
+          <article class="skill reveal">
+            <div class="skill-icon">#</div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts, modern styling and visual polish.</p>
+          </article>
+
+          <article class="skill reveal">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interactive features and dynamic website behaviour.</p>
+          </article>
+
+          <article class="skill reveal">
+            <div class="skill-icon">✦</div>
+            <h3>Canva</h3>
+            <p>Creative graphics, social media designs and thumbnails.</p>
+          </article>
+
+          <article class="skill reveal">
+            <div class="skill-icon">↗</div>
+            <h3>Web Research</h3>
+            <p>Online research and organised information gathering.</p>
+          </article>
+
+          <article class="skill reveal">
+            <div class="skill-icon">▤</div>
+            <h3>Virtual Assistance</h3>
+            <p>Online administrative and everyday digital support.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
     <section id="services">
       <div class="wrap">
 
-        <div class="section-head">
-          <div class="kicker">03 / Services</div>
-          <h2>How I can help</h2>
-
+        <div class="section-head reveal">
+          <div class="kicker">03 / What I Offer</div>
+          <h2>Services I provide</h2>
           <p class="section-intro">
-            Websites and creative visuals for personal brands,
-            creators, freelancers and small businesses.
+            Practical digital solutions for individuals, creators,
+            freelancers and small businesses.
           </p>
         </div>
 
         <div class="service-grid">
 
-          <article class="card service-card">
-            <div class="service-number">01 / BUILD</div>
-            <h3>Frontend Website Development</h3>
-            <p>Building clean, functional websites with modern web tools.</p>
+          <article class="card service-card reveal">
+            <div class="service-number">01 / DEVELOPMENT</div>
+            <h3>Frontend Development</h3>
+            <p>
+              Building modern websites using HTML, CSS and JavaScript.
+            </p>
           </article>
 
-          <article class="card service-card">
+          <article class="card service-card reveal">
             <div class="service-number">02 / DESIGN</div>
             <h3>Responsive Web Design</h3>
-            <p>Layouts that adapt smoothly to desktop, tablet and mobile screens.</p>
+            <p>
+              Mobile-friendly website layouts for desktop, tablet
+              and mobile.
+            </p>
           </article>
 
-          <article class="card service-card">
+          <article class="card service-card reveal">
             <div class="service-number">03 / PERSONAL BRAND</div>
-            <h3>Portfolio Website Development</h3>
-            <p>Personal websites that showcase your profile, skills, projects and services.</p>
+            <h3>Portfolio Websites</h3>
+            <p>
+              Professional portfolio websites to showcase your
+              profile, skills and projects.
+            </p>
           </article>
 
-          <article class="card service-card">
-            <div class="service-number">04 / CONVERT</div>
-            <h3>Landing Page Development</h3>
-            <p>Focused landing pages for products, services, freelancers and businesses.</p>
+          <article class="card service-card reveal">
+            <div class="service-number">04 / BUSINESS</div>
+            <h3>Landing Pages</h3>
+            <p>
+              Attractive landing pages for businesses, products
+              and services.
+            </p>
           </article>
 
-          <article class="card service-card">
+          <article class="card service-card reveal">
             <div class="service-number">05 / REFRESH</div>
             <h3>Website Redesign</h3>
-            <p>Refreshing existing pages with a cleaner layout and more polished experience.</p>
+            <p>
+              Improving existing websites with cleaner layouts
+              and better visual presentation.
+            </p>
           </article>
 
-          <article class="card service-card">
-            <div class="service-number">06 / CREATIVE</div>
-            <h3>Canva Designs</h3>
-            <p>Creating attractive social media posts, banners, flyers and promotional graphics in Canva.</p>
+          <article class="card service-card reveal">
+            <div class="service-number">06 / INTERACTION</div>
+            <h3>UI & Animations</h3>
+            <p>
+              Interactive website elements and smooth visual
+              effects.
+            </p>
           </article>
 
-          <article class="card service-card">
-            <div class="service-number">07 / VIDEO & SOCIAL</div>
+          <article class="card service-card reveal">
+            <div class="service-number">07 / CREATIVE</div>
+            <h3>Canva Graphic Design</h3>
+            <p>
+              Creative social media graphics, promotional designs
+              and visual content.
+            </p>
+          </article>
+
+          <article class="card service-card reveal">
+            <div class="service-number">08 / CONTENT</div>
             <h3>YouTube Thumbnails</h3>
-            <p>Designing bold, attention-grabbing thumbnails that help content stand out.</p>
+            <p>
+              Eye-catching thumbnail designs for YouTube creators
+              and content channels.
+            </p>
           </article>
 
-          <article class="card service-card">
-            <div class="service-number">08 / DETAIL</div>
-            <h3>UI Design & Visual Polish</h3>
-            <p>Improving page layouts with clear visual hierarchy, balanced spacing and polished details.</p>
-          </article>
-
-          <article class="card service-card">
+          <article class="card service-card reveal">
             <div class="service-number">09 / SUPPORT</div>
             <h3>Virtual Assistance</h3>
-            <p>Reliable support with email and calendar organization, online research, data entry, document formatting and everyday administrative tasks.</p>
+            <p>
+              Everyday online support, data entry, web research
+              and document assistance.
+            </p>
           </article>
 
         </div>
-
-        <div class="card additional-card">
-          <div class="mini-title">
-            Additional digital support skills
-          </div>
-
-          <p>
-            I can also support everyday online and document tasks.
-          </p>
-
-          <div class="support-skills">
-            <span>Virtual Assistance</span>
-            <span>Administrative Support</span>
-            <span>Data Entry</span>
-            <span>Web Research</span>
-            <span>Document Support</span>
-          </div>
-        </div>
-
       </div>
     </section>
 
-
-    <!-- PROJECTS SECTION -->
+    <!-- Projects -->
     <section id="projects">
       <div class="wrap">
 
-        <div class="section-head">
-          <div class="kicker">04 / Projects</div>
-          <h2>Portfolio work & concepts</h2>
-
+        <div class="section-head reveal">
+          <div class="kicker">04 / My Work</div>
+          <h2>Projects & concepts</h2>
           <p class="section-intro">
-            A space to showcase website projects, Canva graphics
-            and thumbnail designs.
+            A selection of website concepts and work categories
+            that demonstrate the services I offer.
           </p>
         </div>
 
         <div class="project-grid">
 
-          <article class="card project">
+          <article class="card project reveal">
             <div class="project-art">
               <div class="mock-card">
                 <div class="mock-line short"></div>
@@ -272,24 +381,22 @@
             </div>
 
             <div class="project-body">
-              <div class="mini-title">Business Landing Page</div>
+              <div class="mini-title">Personal Portfolio Website</div>
               <p>
-                A clean landing page concept with a clear message,
-                responsive sections and contact call-to-action.
+                A professional personal website concept to showcase
+                skills, services and contact details.
               </p>
-
               <div class="tags">
-                <span class="tag">Web</span>
-                <span class="tag">Visual Design</span>
-                <span class="tag">Responsive</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
               </div>
             </div>
           </article>
 
-
-          <article class="card project">
-            <div class="project-art project-art-two">
-              <div class="mock-card mock-card-two">
+          <article class="card project reveal">
+            <div class="project-art art-two">
+              <div class="mock-card">
                 <div class="mock-line"></div>
                 <div class="mock-line short"></div>
                 <div class="mock-blocks">
@@ -299,23 +406,21 @@
             </div>
 
             <div class="project-body">
-              <div class="mini-title">Personal Portfolio</div>
+              <div class="mini-title">Business Landing Page</div>
               <p>
-                A personal portfolio concept to introduce a
-                professional, showcase their work and make contact easy.
+                A responsive landing page concept for a business
+                or service provider.
               </p>
-
               <div class="tags">
-                <span class="tag">Web</span>
-                <span class="tag">Visual Design</span>
-                <span class="tag">UI</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">UI Design</span>
+                <span class="tag">CSS</span>
               </div>
             </div>
           </article>
 
-
-          <article class="card project">
-            <div class="project-art project-art-three">
+          <article class="card project reveal">
+            <div class="project-art art-three">
               <div class="mock-card">
                 <div class="mock-line"></div>
                 <div class="mock-line short"></div>
@@ -328,14 +433,13 @@
             <div class="project-body">
               <div class="mini-title">Creative Design Concept</div>
               <p>
-                A creative visual concept designed to make
-                online content stand out.
+                A visual content concept for social media and
+                digital promotional material.
               </p>
-
               <div class="tags">
-                <span class="tag">Interactive Design</span>
-                <span class="tag">Visual Design</span>
-                <span class="tag">Interaction</span>
+                <span class="tag">Canva</span>
+                <span class="tag">Graphics</span>
+                <span class="tag">Creative</span>
               </div>
             </div>
           </article>
@@ -343,56 +447,64 @@
         </div>
 
         <p class="note">
-          Note: These are sample project concepts. Replace them
-          with links, screenshots and details of your own completed
-          projects before sharing this portfolio with clients.
+          Note: These are illustrative project concepts. Replace
+          them with your actual completed work, screenshots and
+          project links as your portfolio grows.
         </p>
 
       </div>
     </section>
 
-
-    <!-- CONTACT SECTION -->
+    <!-- Contact -->
     <section id="contact">
       <div class="wrap">
 
-        <div class="contact">
-
+        <div class="contact reveal">
           <div>
-            <div class="kicker">05 / Contact</div>
+            <div class="kicker">05 / Let's Connect</div>
             <h2>Have a project in mind?</h2>
-
             <p>
-              I'm open to freelance work, collaborations and
-              opportunities to build useful web experiences.
-              Send me a message and let's talk.
+              Need a website, creative design or digital support?
+              Let's discuss your project and how I can help.
             </p>
+
+            <div class="contact-details">
+              <span>✉ jayaraj.s.freelancer@gmail.com</span>
+              <span>⌖ India · Available for remote work</span>
+            </div>
           </div>
 
-          <a class="btn btn-primary"
-            href="mailto:jayaraj.s.freelancer@gmail.com?subject=Frontend%20Development%20Enquiry">
-            Email me ↗
-          </a>
+          <div class="contact-actions">
+            <a class="btn btn-primary"
+              href="mailto:jayaraj.s.freelancer@gmail.com?subject=Freelance%20Project%20Enquiry">
+              Email Me ↗
+            </a>
 
+            <a class="btn btn-ghost"
+              href="https://linktr.ee/jayaraj.s.freelancer"
+              target="_blank" rel="noopener noreferrer">
+              Visit My Linktree ↗
+            </a>
+          </div>
         </div>
+
       </div>
     </section>
 
   </main>
 
-
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer>
     <div class="wrap footer-inner">
       <span>
         © <span id="year"></span> Jayaraj S. All rights reserved.
       </span>
 
-      <a href="#home">Back to top ↑</a>
+      <span>Frontend Developer · Creative Designer</span>
+
+      <a href="#home">Back to Top ↑</a>
     </div>
   </footer>
-
-  <script src="script.js" defer></script>
 
 </body>
 </html>
